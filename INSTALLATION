@@ -1,0 +1,44 @@
+Installation
+===
+
+1. Install dependencies (see below)
+2. Run `bundle install`.
+3. Create database: `rake db:create`.
+4. `rails server` to begin the application.
+
+Dependencies
+===
+
+This demo application requires the following:
+
+- Ruby
+- Postgres
+
+Ruby
+---
+
+Guides to installing Ruby can be found here:
+
+https://www.ruby-lang.org/en/documentation/installation/
+
+Note that this application was written in Ruby 2.2 but will work with any Ruby version supported by Rails 4.2.
+
+The author uses the rbenv to manage Ruby versions:
+
+https://github.com/sstephenson/rbenv
+
+Postgres
+---
+
+Guides to installing Postgres on many operating systems can be found here:
+
+https://wiki.postgresql.org/wiki/Detailed_installation_guides
+
+The sample application uses Postgres 8.4 but is not dependent on a specific version of Postgres. By default, Rails will look for a Postgres service running on localhost. For help configuring Postgres and Rails, see:
+
+https://bitbucket.org/ged/ruby-pg/wiki/Home
+
+Help!
+===
+
+See the discussion section of the course to ask questions and view comments from other viewers. Need more help? Find me on Twitter as @imkmf.
